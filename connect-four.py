@@ -13,3 +13,4 @@ class ConnectFour:
         if column < 1 or column > 7:
             return False
         if self.board[0][column - 1] != ' ':
+            return False
