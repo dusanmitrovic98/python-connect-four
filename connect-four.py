@@ -15,3 +15,4 @@ class ConnectFour:
         if self.board[0][column - 1] != ' ':
             return False
         return True
+
