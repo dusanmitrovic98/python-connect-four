@@ -42,3 +42,4 @@ class ConnectFour:
         # Check diagonals (top-left to bottom-right)
         for row in range(3):
             for col in range(4):
+                if self.board[row][col] == self.board[row+1][col+1] == self.board[row+2][col+2] == self.board[row+3][col+3] != ' ':
