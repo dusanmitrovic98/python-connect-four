@@ -21,3 +21,4 @@ class ConnectFour:
             if self.board[row][column - 1] == ' ':
                 self.board[row][column - 1] = self.current_player
                 break
+
