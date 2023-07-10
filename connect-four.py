@@ -26,3 +26,4 @@ class ConnectFour:
         self.current_player = 'O' if self.current_player == 'X' else 'X'
 
     def check_winner(self):
+        # Check rows
