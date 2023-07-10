@@ -35,3 +35,4 @@ class ConnectFour:
         # Check columns
         for row in range(3):
             for col in range(7):
+            for col in range(7):
