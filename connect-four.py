@@ -18,3 +18,4 @@ class ConnectFour:
 
     def make_move(self, column):
         for row in range(5, -1, -1):
+            if self.board[row][column - 1] == ' ':
