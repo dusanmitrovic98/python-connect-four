@@ -4,3 +4,4 @@ class ConnectFour:
         self.current_player = 'X'
 
     def print_board(self):
+        for row in self.board:
