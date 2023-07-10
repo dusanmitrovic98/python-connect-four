@@ -10,3 +10,4 @@ class ConnectFour:
         print(' 1 2 3 4 5 6 7')
 
     def is_valid_move(self, column):
+        if column < 1 or column > 7:
