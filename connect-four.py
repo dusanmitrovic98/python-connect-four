@@ -16,3 +16,4 @@ class ConnectFour:
             return False
         return True
 
+    def make_move(self, column):
