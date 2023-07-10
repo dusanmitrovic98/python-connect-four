@@ -31,3 +31,4 @@ class ConnectFour:
             for col in range(4):
                 if self.board[row][col] == self.board[row][col+1] == self.board[row][col+2] == self.board[row][col+3] != ' ':
                     return True
+
