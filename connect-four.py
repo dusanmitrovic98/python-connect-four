@@ -12,3 +12,4 @@ class ConnectFour:
     def is_valid_move(self, column):
         if column < 1 or column > 7:
             return False
+        if self.board[0][column - 1] != ' ':
