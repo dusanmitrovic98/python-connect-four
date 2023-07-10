@@ -24,3 +24,4 @@ class ConnectFour:
 
     def switch_player(self):
         self.current_player = 'O' if self.current_player == 'X' else 'X'
+
