@@ -40,3 +40,4 @@ class ConnectFour:
                     return True
 
         # Check diagonals (top-left to bottom-right)
+        for row in range(3):
