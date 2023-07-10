@@ -33,3 +33,4 @@ class ConnectFour:
                     return True
 
         # Check columns
+        for row in range(3):
