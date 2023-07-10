@@ -17,3 +17,4 @@ class ConnectFour:
         return True
 
     def make_move(self, column):
+        for row in range(5, -1, -1):
