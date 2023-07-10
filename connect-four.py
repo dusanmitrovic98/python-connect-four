@@ -39,3 +39,4 @@ class ConnectFour:
                 if self.board[row][col] == self.board[row+1][col] == self.board[row+2][col] == self.board[row+3][col] != ' ':
                     return True
 
+        # Check diagonals (top-left to bottom-right)
