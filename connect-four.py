@@ -28,3 +28,4 @@ class ConnectFour:
     def check_winner(self):
         # Check rows
         for row in range(6):
+            for col in range(4):
