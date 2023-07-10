@@ -22,3 +22,4 @@ class ConnectFour:
                 self.board[row][column - 1] = self.current_player
                 break
 
+    def switch_player(self):
