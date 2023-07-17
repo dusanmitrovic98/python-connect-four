@@ -29,3 +29,4 @@ def winning_move(board, player):
         for row in range(ROW_COUNT):
             if (
                 board[row][col] == player
+                and board[row][col + 1] == player
