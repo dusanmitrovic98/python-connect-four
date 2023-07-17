@@ -10,3 +10,4 @@ def create_board():
     return [[EMPTY] * COLUMN_COUNT for _ in range(ROW_COUNT)]
 
 def drop_piece(board, row, col, player):
+    # Place the player's piece in the specified column and row
