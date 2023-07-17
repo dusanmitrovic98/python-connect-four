@@ -38,3 +38,4 @@ def winning_move(board, player):
     # Check vertical locations for win
     for col in range(COLUMN_COUNT):
         for row in range(ROW_COUNT - 3):
+            if (
