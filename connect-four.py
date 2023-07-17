@@ -94,3 +94,4 @@ def play_game():
             col = int(input("Player 2 (O) - Choose a column (0-6): "))
 
         if is_valid_location(board, col):
+            row = get_next_open_row(board, col)
