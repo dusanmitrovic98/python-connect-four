@@ -35,3 +35,4 @@ def winning_move(board, player):
             ):
                 return True
 
+    # Check vertical locations for win
