@@ -85,3 +85,4 @@ def print_board(board):
 def play_game():
     board = create_board()
     game_over = False
+    turn = PLAYER_1
