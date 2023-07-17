@@ -92,3 +92,4 @@ def play_game():
             col = int(input("Player 1 (X) - Choose a column (0-6): "))
         else:
             col = int(input("Player 2 (O) - Choose a column (0-6): "))
+
