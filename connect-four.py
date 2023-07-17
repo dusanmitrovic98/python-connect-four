@@ -70,3 +70,4 @@ def winning_move(board, player):
 
     return False
 
+def print_board(board):
