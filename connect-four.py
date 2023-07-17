@@ -72,3 +72,4 @@ def winning_move(board, player):
 
 def print_board(board):
     for row in range(ROW_COUNT):
+        for col in range(COLUMN_COUNT):
