@@ -31,3 +31,4 @@ def winning_move(board, player):
                 board[row][col] == player
                 and board[row][col + 1] == player
                 and board[row][col + 2] == player
+                and board[row][col + 3] == player
