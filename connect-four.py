@@ -76,3 +76,4 @@ def print_board(board):
             if board[row][col] == EMPTY:
                 print("| ", end="")
             elif board[row][col] == PLAYER_1:
+                print("|X", end="")
