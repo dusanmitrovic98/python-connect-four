@@ -63,3 +63,4 @@ def winning_move(board, player):
             if (
                 board[row][col] == player
                 and board[row - 1][col + 1] == player
+                and board[row - 2][col + 2] == player
