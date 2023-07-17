@@ -97,3 +97,4 @@ def play_game():
             row = get_next_open_row(board, col)
             drop_piece(board, row, col, turn)
 
+            if winning_move(board, turn):
