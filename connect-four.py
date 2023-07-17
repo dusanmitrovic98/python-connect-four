@@ -64,3 +64,4 @@ def winning_move(board, player):
                 board[row][col] == player
                 and board[row - 1][col + 1] == player
                 and board[row - 2][col + 2] == player
+                and board[row - 3][col + 3] == player
