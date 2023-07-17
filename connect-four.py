@@ -83,3 +83,4 @@ def print_board(board):
     print("-----------------------------")
 
 def play_game():
+    board = create_board()
