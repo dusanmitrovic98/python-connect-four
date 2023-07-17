@@ -18,3 +18,4 @@ def is_valid_location(board, col):
     return board[0][col] == EMPTY
 
 def get_next_open_row(board, col):
+    # Find the next available row in the specified column
