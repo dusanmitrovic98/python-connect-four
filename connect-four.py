@@ -57,3 +57,4 @@ def winning_move(board, player):
             ):
                 return True
 
+    # Check negatively sloped diagonals
