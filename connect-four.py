@@ -22,3 +22,4 @@ def get_next_open_row(board, col):
     for row in range(ROW_COUNT - 1, -1, -1):
         if board[row][col] == EMPTY:
             return row
+
