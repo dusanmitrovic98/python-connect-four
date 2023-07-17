@@ -87,3 +87,4 @@ def play_game():
     game_over = False
     turn = PLAYER_1
 
+    while not game_over:
