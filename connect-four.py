@@ -77,3 +77,4 @@ def print_board(board):
                 print("| ", end="")
             elif board[row][col] == PLAYER_1:
                 print("|X", end="")
+            elif board[row][col] == PLAYER_2:
