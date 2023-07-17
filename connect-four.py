@@ -1,1 +1,2 @@
 # Constants
+EMPTY = 0
