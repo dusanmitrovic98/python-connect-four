@@ -93,3 +93,4 @@ def play_game():
         else:
             col = int(input("Player 2 (O) - Choose a column (0-6): "))
 
+        if is_valid_location(board, col):
