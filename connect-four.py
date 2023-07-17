@@ -81,3 +81,4 @@ def print_board(board):
                 print("|O", end="")
         print("|")
     print("-----------------------------")
+
