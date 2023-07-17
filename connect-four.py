@@ -23,3 +23,4 @@ def get_next_open_row(board, col):
         if board[row][col] == EMPTY:
             return row
 
+def winning_move(board, player):
