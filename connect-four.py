@@ -88,3 +88,4 @@ def play_game():
     turn = PLAYER_1
 
     while not game_over:
+        if turn == PLAYER_1:
