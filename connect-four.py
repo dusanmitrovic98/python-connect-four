@@ -82,3 +82,4 @@ def print_board(board):
         print("|")
     print("-----------------------------")
 
+def play_game():
