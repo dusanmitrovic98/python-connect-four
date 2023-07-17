@@ -12,3 +12,4 @@ def create_board():
 def drop_piece(board, row, col, player):
     # Place the player's piece in the specified column and row
     board[row][col] = player
+
