@@ -47,3 +47,4 @@ def winning_move(board, player):
                 return True
 
     # Check positively sloped diagonals
+    for col in range(COLUMN_COUNT - 3):
