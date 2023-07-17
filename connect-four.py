@@ -17,3 +17,4 @@ def is_valid_location(board, col):
     # Check if the top row of the column is empty
     return board[0][col] == EMPTY
 
+def get_next_open_row(board, col):
