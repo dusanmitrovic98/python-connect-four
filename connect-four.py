@@ -14,3 +14,4 @@ def drop_piece(board, row, col, player):
     board[row][col] = player
 
 def is_valid_location(board, col):
+    # Check if the top row of the column is empty
