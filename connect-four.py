@@ -89,3 +89,4 @@ def play_game():
 
     while not game_over:
         if turn == PLAYER_1:
+            col = int(input("Player 1 (X) - Choose a column (0-6): "))
