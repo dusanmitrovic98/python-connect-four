@@ -75,3 +75,4 @@ def print_board(board):
         for col in range(COLUMN_COUNT):
             if board[row][col] == EMPTY:
                 print("| ", end="")
+            elif board[row][col] == PLAYER_1:
