@@ -91,3 +91,4 @@ def play_game():
         if turn == PLAYER_1:
             col = int(input("Player 1 (X) - Choose a column (0-6): "))
         else:
+            col = int(input("Player 2 (O) - Choose a column (0-6): "))
