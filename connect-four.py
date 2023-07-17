@@ -25,3 +25,4 @@ def get_next_open_row(board, col):
 
 def winning_move(board, player):
     # Check horizontal locations for win
+    for col in range(COLUMN_COUNT - 3):
