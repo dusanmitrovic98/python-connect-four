@@ -24,3 +24,4 @@ def get_next_open_row(board, col):
             return row
 
 def winning_move(board, player):
+    # Check horizontal locations for win
