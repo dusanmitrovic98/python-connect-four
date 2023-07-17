@@ -20,3 +20,4 @@ def is_valid_location(board, col):
 def get_next_open_row(board, col):
     # Find the next available row in the specified column
     for row in range(ROW_COUNT - 1, -1, -1):
+        if board[row][col] == EMPTY:
